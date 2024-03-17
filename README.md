@@ -23,9 +23,10 @@ This Python script utilizes Pygame and librosa libraries to create a real-time m
 1. Save the script as a Python file (e.g., `music_visualizer.py`).
 2. Place your music file (e.g., `Sample_Song.mp3`) in the same directory as the script.
 3. Run the script from the command line using `python music_visualizer.py`.
-
+#
    ![image](https://github.com/SingKlayer/Music-Driven-Art-Visualizer/assets/72658973/11ea4f4e-4eaf-4f9b-a236-9360d3ab35c4)
 
+#
    ![image](https://github.com/SingKlayer/Music-Driven-Art-Visualizer/assets/72658973/dcd52cbb-08c6-44ae-8edc-c2df46f1d470)
 
 
