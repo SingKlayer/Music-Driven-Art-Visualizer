@@ -8,15 +8,14 @@ This Python script utilizes Pygame and librosa libraries to create a real-time m
 2. **Spectrogram Generation:** It calculates the Short-Time Fourier Transform (STFT) of the audio using `librosa.stft`. The STFT represents the frequency content of the music over time.
 3. **Random Colormap Selection:** The script employs `matplotlib.cm` to choose a random colormap for visualizing the spectrogram.
 4. **Colormap Application:** The chosen colormap is applied to the spectrogram using custom functions to transform the data into RGB values suitable for Pygame.
-5. **Music Playback:** Pygame's `mixer` module plays the music file in a loop.
-6. **Visualization Loop:** 
+5. **Visualization Loop:** 
     - The script continuously reads events to check for the quit event.
     - It iterates through the spectrogram data in slices, creating a surface for each slice.
     - Each surface represents a portion of the visualized spectrogram.
     - The surface is scaled to fit the screen resolution and then blitted onto the main screen.
     - The visualized window traverses the spectrogram data, creating a moving effect.
-7. **Error Handling:** The script includes a `try-except` block to catch potential exceptions during execution and prints an informative error message.
-8. **Cleanup:** A `finally` block ensures proper termination by quitting Pygame.
+6. **Error Handling:** The script includes a `try-except` block to catch potential exceptions during execution and prints an informative error message.
+7. **Cleanup:** A `finally` block ensures proper termination by quitting Pygame.
 
 ### Usage
 
